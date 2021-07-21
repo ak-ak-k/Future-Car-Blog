@@ -1,0 +1,21 @@
+{
+    "params": {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/future",
+        "prod_uri": "mysql://root:@localhost/future",
+        "blog_name": "Concept Cars",
+        "blog_subtitle": "A concept car is a car made to showcase new styling and/or new technology.",
+        "tag_line": "Future Is Everything",
+        "copyright_tag": "@ Copyright &copy; Your Website 2022",
+        "fb_url": "https://facebook.com/conceptcars",
+        "tw_url": "https://twitter.com/conceptcars",
+        "gh_url": "https://github.com/conceptcars",
+        "about_text": "Hi my name is aditya and i upload future car information",
+        "no_of_posts": 2,
+        "login_image": "cc.jpg",
+        "admin_user": "aditya",
+        "admin_password": "aditya",
+        "upload_location": "A:\\framework\\blog tut\\static\\assets\\website content"
+    }
+
+}
