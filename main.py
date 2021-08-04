@@ -14,6 +14,7 @@ with open('config.json', 'r') as c:
 
 local_server=True    
 app = Flask(__name__, template_folder='template')
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://root:@localhost/future"
 app.secret_key = 'super-secret-key'
 app.config['UPLOAD_FOLDER'] = params['upload_location']
 if(local_server):
@@ -155,4 +156,4 @@ def logout():
     return redirect('/dashboard')
 
 
-app.run(debug=True, port=8000)
+app.run(debug=False, port=8000)
